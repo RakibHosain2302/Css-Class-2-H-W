@@ -1,0 +1,86 @@
+
+
+/* navbar css */
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 4px 8px;
+}
+nav ul li a{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+
+    color:red;
+    transition: .2s;
+
+}
+.navbar{
+    background-color: #e1dedeca;
+}
+/* navbar css ends */
+.heading{
+    text-align: center;
+    font-family: Trebuchet ,sans-serif, Arial, sans-serif;
+}
+.head{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+}
+/* Featured Products */
+.p-items{
+    background-color:white;
+    border-radius: 5px;
+    width: 200px;
+    height: 400x;
+    padding: 30px 30px;
+    margin: 10px 20px;
+    display: inline-block;
+}
+
+.images{
+    width: 200px;
+}
+.images2{
+    width: 165px;
+}
+.images3{
+    width:180px;
+}
+
+.p-name{
+    text-decoration: none;
+    color: black;
+    
+}
+.p-name h4:hover{
+    color: red;
+    transition: .2s;
+
+}
+.new-price{
+    color: red;
+    font-size:15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.old-price{
+    color: gray;
+    text-decoration: line-through;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+/* Featured Products ends */
+
+.wrapper{
+ width: fit-content;
+ margin: auto;
+}
